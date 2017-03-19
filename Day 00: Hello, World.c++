@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main() 
 {
     // Declare a variable named 'input_string' to hold our input.
@@ -12,6 +13,7 @@ int main()
     cout << "Hello, World." << endl;
 
     // TODO: Write a line of code here that prints the contents of input_string to stdout.
-
+    cout<<input_string;
+    
     return 0;
 }
