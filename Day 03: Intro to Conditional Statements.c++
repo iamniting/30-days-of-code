@@ -8,14 +8,14 @@ int main()
     
     if(N % 2 != 0)
     {
-        cout<<"Weird";
+        cout << "Weird";
     }
     else if(N % 2 == 0)
     {
         if(N >= 6 && N <= 20)
-            cout<<"Weird";
+            cout << "Weird";
         else
-            cout<<"Not Weird";
+            cout << "Not Weird";
     }
     
     return 0;
