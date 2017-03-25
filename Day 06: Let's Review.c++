@@ -5,11 +5,11 @@ int main()
 {
     int n;
     string str[10];
-    cin>>n;
+    cin >> n;
     
     for(int i=0; i<n; i++)
     {
-        cin>>str[i];
+        cin >> str[i];
     }
     
     for(int i=0; i<n; i++)
@@ -18,18 +18,18 @@ int main()
         {
             if(j % 2 == 0)
             {
-                cout<<str[i][j];
+                cout << str[i][j];
             }
         }
-        cout<<" ";
+        cout << " ";
         for(int j=0; str[i][j]!='\0'; j++)
         {
             if(j % 2 != 0)
             {
-                cout<<str[i][j];
+                cout << str[i][j];
             }
         }
-        cout<<endl;
+        cout << endl;
     }
     
     return 0;
