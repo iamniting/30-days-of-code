@@ -1,50 +1,30 @@
 #include <iostream>
 #include <algorithm>
+#include <map>
 using namespace std;
 
-int check(string name[], long long int num[], string name1, int n)
+int main() 
 {
-    int flag = 0;
-    for(int i=0; i<n; i++)
-    {
-        if(name1 == name[i])
-        {
-            cout << name[i] << "=" << num[i] << endl;
-            flag = 1;
-            break;
-        }
-    }
-    return flag;
-}
-
-int main()
-{
-    string name[100001];
-    long long int num[100001];
-    string name1;
-    int n, length, flag;
+    map <string, string> pbook;
+    string name, num;
+    int n;
     
     cin >> n;
     
     for(int i=0; i<n; i++)
     {
-        cin >> name[i];
-        cin >> num[i];
+        cin >> name >> num;
+        pbook.insert(make_pair(name, num));
     }
     
-    while(1)
+    while(cin>>name)
     {
-        cin >> name1;
-        if(name1.empty())
-            break;
-        flag = 0;
-        flag = check(name, num, name1, n);
-        
-        if(flag == 0)
-        {
-            cout << "Not found" << endl;
-        }
-        name1 = "";
+        map<string, string>::iterator p = pbook.find(name);
+        if(p != pbook.end())
+            cout << p->first << "=" << p->second;
+        else
+            cout << "Not found";
+        cout<<endl;
     }
     
     return 0;
