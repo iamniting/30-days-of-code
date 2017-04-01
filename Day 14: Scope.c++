@@ -6,8 +6,8 @@ class Difference
 {
     private:
         vector<int> elements;
-  	public:
-  	    int maximumDifference;
+    public:
+        int maximumDifference;
         
         Difference(vector <int> x)
         {
