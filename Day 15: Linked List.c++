@@ -60,7 +60,7 @@ int main()
     {
         cin >> data;
         head=mylist.insert(head, data);
-    }	
-	mylist.display(head);
+    }
+    mylist.display(head);
     return 0;
 }
