@@ -52,8 +52,8 @@ class Solution
 
 int main()
 {
-	Node * head = NULL;
-  	Solution mylist;
+    Node * head = NULL;
+    Solution mylist;
     int T, data;
     cin >> T;
     while(T-->0)
