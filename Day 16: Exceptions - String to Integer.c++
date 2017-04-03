@@ -11,7 +11,7 @@ int main()
         int num = stoi(S);
         cout << num;
     }
-    catch(exception e)
+    catch(...)
     {
         cout << "Bad String";
     }
