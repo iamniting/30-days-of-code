@@ -36,7 +36,7 @@ int main()
     string s;
     getline(cin, s);
     
-  	// create the Solution class object.
+    // create the Solution class object.
     Solution obj;
     
     // push/enqueue all the characters of string s to stack and queue.
