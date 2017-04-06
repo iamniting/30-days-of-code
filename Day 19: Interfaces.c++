@@ -17,7 +17,7 @@ class Calculator:public AdvancedArithmetic
             {
                 if(n % i == 0)
                 {
-                sum = sum + i;
+                    sum = sum + i;
                 }
             }
             return sum + n;
