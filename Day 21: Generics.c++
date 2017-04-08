@@ -17,10 +17,10 @@ int main()
 {
 	int n;	
 	
-  cin >> n;
-  vector<int> int_vector(n);
+    cin >> n;
+    vector<int> int_vector(n);
 	for (int i = 0; i < n; i++)
-  {
+    {
 		int value;
 		cin >> value;
 		int_vector[i] = value;
@@ -29,7 +29,7 @@ int main()
 	cin >> n;
 	vector<string> string_vector(n);
 	for (int i = 0; i < n; i++)
-  {
+    {
 		string value;
 		cin >> value;
 		string_vector[i] = value;
