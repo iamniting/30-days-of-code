@@ -19,7 +19,7 @@ class Node
 class Solution
 {
     public:
-  		Node * insert(Node * root, int data)
+        Node * insert(Node * root, int data)
         {
             if(root==NULL)
             {
@@ -56,7 +56,7 @@ class Solution
                 if(temp->right != NULL)
                     q.push(temp->right);
             }
-	    }
+        }
 };
 int main()
 {
