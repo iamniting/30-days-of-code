@@ -37,7 +37,7 @@ class Solution
                 {
                    cur = insert(root->right, data);
                    root->right = cur;
-                }           
+                }
                 return root;
             }
         }
