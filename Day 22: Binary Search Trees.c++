@@ -18,7 +18,7 @@ class Node
 class Solution
 {
     public:
-  		Node * insert(Node * root, int data) 
+        Node * insert(Node * root, int data) 
         {
             if(root == NULL)
             {
@@ -41,7 +41,7 @@ class Solution
             }
         }
     
-  		int getHeight(Node* root)
+        int getHeight(Node* root)
         {
             if(root==NULL)
                 return -1;
