@@ -16,7 +16,7 @@ int main()
         string firstName;
         string emailID;
         cin >> firstName >> emailID;
-        // find return index of @gmail.com
+        // find returns the index of @gmail.com
         if(emailID.find("@gmail.com") != -1)
         {
             name.push_back(firstName);
